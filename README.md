@@ -68,21 +68,31 @@ Now that we are allowing ICMP traffic let's try to ping the computer again.
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now go to DC1 and install AD. Click on Add Roles and Features. Make sure you check Active Directory Domain Services and proceed with the installation by clicking next. 
 </p>
 <br />
 
+![image](https://github.com/Algoroy27/configure-ad/assets/137920855/b31ef22d-6794-4673-a5dc-f78cec998b22)
+
+![image](https://github.com/Algoroy27/configure-ad/assets/137920855/0d138045-e4f5-4b13-aaa2-e4cd25c43475)
+
+![image](https://github.com/Algoroy27/configure-ad/assets/137920855/d3329670-a87f-4f82-9411-b76c5f068d51)
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Click on Add a new forest and this is where you are going to set your domain. It can be anything that you want for now we are going to set it as mydomain.com 
 </p>
 <br />
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+
+STEP 4
+- 4.1 In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
+- 4.2 Create a new OU named “_ADMINS”
+- 4.3 Create a new employee named “Jane Doe” (same password) with the username of “jane_admin”
+- 4.4 Add jane_admin to the “Domain Admins” Security Group
+- 4.5 Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\jane_admin”
+- 4.6 User jane_admin as your admin account from now on
+
 <br />
 
 <p>
