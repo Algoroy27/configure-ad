@@ -103,25 +103,25 @@ STEP 4
 
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The next step is to join Client-1 to the domain(my domain.com)
+
+From the Azure portal set client 1 DNS settings to the Dc’s Private IP address
+NOTE: The current state of the Client 1 DNS is automatically pointing to the VNET DNS Server(Azure virtual DNS) we need the client to get its DNS from the domain controller. So if we try to connect to the domain it is reaching out to the VNET asking if it "has" mydomain.com resulting in an error.
 </p>
+
+![image](https://github.com/Algoroy27/configure-ad/assets/137920855/f8462acd-9ad4-496c-ad1c-af79dfbdbf2a)
+
+
+<br />
+
+<br />
+
+![image](https://github.com/Algoroy27/configure-ad/assets/137920855/6efa5a94-aa91-4d23-966e-c2c7cdc36da8)
+
 <br />
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Click on Custom and paste the DC-1 private IP address 
 </p>
 <br />
 
