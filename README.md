@@ -42,20 +42,16 @@ First, we need to set up our resources in Azure by creating the Domain Controlle
 
 NOTE; When creating a virtual machine, Azure will automatically create a virtual network for the domain controller. Also, make sure to create a new resource group(AD-Lab) 
 
-Now by default, the DC-1 will have a dynamic IP address, since the Domain controller will be assigning IP addresses to client computers we need to change the DC-1 IP to Static. This can be done in the IP configuration tab in Azure
 </p>
 <br />
 
 ![image](https://github.com/Algoroy27/configure-ad/assets/137920855/fc8fe5aa-3888-4e4c-b731-d1cd99240ee5)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now by default, the DC-1 will have a dynamic IP address, since the Domain controller will be assigning IP addresses to client computers we need to change the DC-1 IP to Static. This can be done in the IP configuration tab in Azure
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
 Now we must ensure that we are able to communicate with our Domain Controller from our Client machine. Log into DC1 and type in the start menu mf.msc to open up the firewall settings. Filter by protocol and enable all the IPv4 rules. This will open up the firewall to ICMP traffic. (Note the first screenshot is showing the failed attempts and the next is showing what happens after we try to ping the DC.
 </p>
