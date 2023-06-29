@@ -57,8 +57,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now we must ensure that we are able to communicate with our Domain Controller from our Client machine. Log into DC1 and type in the start menu mf.msc to open up the firewall settings. Filter by protocol and enable all the IPv4 rules. This will open up the firewall to ICMP traffic. (Note the first screenshot is showing the failed attempts and the next is showing what happens after we try to ping the DC.
 </p>
+
+![image](https://github.com/Algoroy27/configure-ad/assets/137920855/0bc09f50-8019-4d4e-96f5-defa371f5350)
+
+![image](https://github.com/Algoroy27/configure-ad/assets/137920855/9e53b9ff-d4b2-4016-a25f-965a5a231f8a)
+
+Now that we are allowing ICMP traffic let's try to ping the computer again.
+
+![image](https://github.com/Algoroy27/configure-ad/assets/137920855/a34e23b6-19c8-4b13-b524-c98054a98e78)
+
+
 <br />
 
 <p>
