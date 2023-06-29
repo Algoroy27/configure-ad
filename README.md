@@ -31,11 +31,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
+![image](https://github.com/Algoroy27/configure-ad/assets/137920855/15685209-6740-413f-85f4-5f7d3bbacfc0)
+
+![image](https://github.com/Algoroy27/configure-ad/assets/137920855/647db4c7-7066-425d-89f0-d7f06cdfb604)
+
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First, we need to set up our resources in Azure by creating the Domain Controller which will be tagged as Dc-1, and the client computer which would be client-1. 
+
+NOTE; When creating a virtual machine, Azure will automatically create a virtual network for the domain controller. Also, make sure to create a new resource group(AD-Lab) 
+
+Now by default, the DC-1 will have a dynamic IP address, since the Domain controller will be assigning IP addresses to client computers we need to change the DC-1 IP to Static. This can be done in the IP configuration tab in Azure
 </p>
 <br />
 
