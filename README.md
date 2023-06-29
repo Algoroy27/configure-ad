@@ -173,7 +173,7 @@ Now we are able to log into any random user that was never logged into client 1 
 ![image](https://github.com/Algoroy27/configure-ad/assets/137920855/98b77fa7-35a9-48c0-8c8e-bb6bcccca842)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Congratulations you have successfully set up Active directory within Azure 
 </p>
 <br />
 
