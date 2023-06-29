@@ -95,9 +95,13 @@ STEP 4
 
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/Algoroy27/configure-ad/assets/137920855/9ceb8a71-fc47-48cd-8a70-ae99878d2eab)
+
+![image](https://github.com/Algoroy27/configure-ad/assets/137920855/1b079674-3b5a-4b34-ba48-64779cf7cc4e)
+
+![image](https://github.com/Algoroy27/configure-ad/assets/137920855/cddb6572-95ef-446e-8a66-64887f7caaac)
+
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
